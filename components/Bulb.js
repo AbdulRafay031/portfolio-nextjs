@@ -8,7 +8,7 @@ const Bulb = () => {
     width={260}
     height={200}
     className="w-full h-full"
-    alt=""
+    alt="animate image"
     />
   </div>
   );

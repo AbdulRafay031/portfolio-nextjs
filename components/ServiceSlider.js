@@ -17,31 +17,23 @@ import {
 
 // data
 const serviceData = [
-  {
-    icon: <RxCrop />,
-    title: 'Branding',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+ 
   {
     icon: <RxPencil2 />,
-    title: 'Design',
+    title: 'UI/UX Design',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxDesktop />,
-    title: 'Development',
+    title: 'Web Development',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
   {
     icon: <RxReader />,
-    title: 'Copywriting',
+    title: 'Desktop Application',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
   },
-  {
-    icon: <RxRocket />,
-    title: 'SEO',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-  },
+ 
 ];
 
 import { FreeMode, Pagination } from 'swiper';

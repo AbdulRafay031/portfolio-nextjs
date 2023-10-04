@@ -43,6 +43,7 @@ return (
          href={link.path}
          key={index}
          
+         
          >
           <div className={`${link.path === pathname && 'text-accent'} 
       relative flex items-center group hover:text-accent transition-all duration-300`}></div>

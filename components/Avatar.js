@@ -7,7 +7,7 @@ const Avatar = () => {
   src={'/home-ar.png'} 
   width={700} 
   height={678} 
-  alt=''
+  alt='abdul rafay image'
   className='translate-z-0 '
   ></Image>
   </div>;

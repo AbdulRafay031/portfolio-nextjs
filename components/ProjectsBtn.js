@@ -15,7 +15,7 @@ const ProjectsBtn = () => {
       src={'/rounded-text.png'}
       width={141}
       height={148}
-      alt=''
+      alt='button img'
       className='animate-spin-slow w-full h-full max-w-[149px] max-h-[148px]' 
       />
       <HiArrowRight className='absolute text-4xl group-hover:translate-x-2 transition-all duration-300' />
