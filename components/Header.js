@@ -11,13 +11,13 @@ const Header = () => {
       <div className='flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8 '>
         {/* logo */ }
         <Link href={'/'}>
-     <Image 
-     src={'/logo.svg'} 
-     width={220} 
-     height={70}
-     priority={true}
-     
-     />  
+        <Image
+  src="/logo.svg"
+  width={220}
+  height={70}
+  priority={true}
+  alt="Your meaningful alt text here"
+/>
     
         </Link>
         <Socials className='md: top-80'/>

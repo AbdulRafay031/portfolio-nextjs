@@ -43,25 +43,17 @@ const aboutData = [
       },
     ],
   },
-  // {
-  //   title: 'awards',
-  //   info: [
-  //     {
-  //       title: 'Webby Awards - Honoree',
-  //       stage: '2011 - 2012',
-  //     },
-  //     {
-  //       title: 'Adobe Design Achievement Awards - Finalist',
-  //       stage: '2009 - 2010',
-  //     },
-  //   ],
-  // },
+ 
   {
     title: 'experience',
     info: [
       {
         title: ' Web Developer Freelacer - Fivver | freelacer.com',
         stage: 'jan-2023 ',
+      },
+      {
+        title: ' Web Developer Codsoft| remote internship',
+        
       },
       
      
@@ -155,7 +147,7 @@ const About = () => {
       <div className='flex gap-x-4 xl:gap-x-8 mx-auto xl:mx-0 mb-4'>
         {aboutData.map((item, itemIndex)=>{
           return(
-            <div key={itemIndex} item={item}
+            <div key={itemIndex} 
             className={`${index === itemIndex && 'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'} 
             cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px]
              after:bg-white after:absolute after:-bottom-1 after:left-0`}
@@ -167,25 +159,26 @@ const About = () => {
               
           )
         })}
+     
       </div>
       <div className=' py-2 xl:py-6 flex flex-col gap-y-2 xl:gap-y-4 items-center 
       xl:items-start'> 
-        {aboutData[index].info.map((item, itemIndex) =>{
-          return (<div key={itemIndex} className='flex-1 flex flex-col md:flex-row max-w-max 
-          gap-x-2 items-center text-white/60'>
-          {/* title */}
-          <div className='font-light mb-2 md:mb-0 '>{item.title}</div>
-          <div className='hidden md:flex'></div>
-          <div>{item.stage}</div>
-          <div className='flex gap-x-4'>
-          {/* icons */}
-          {item.icons?.map((icon, itemIndex)=>{
-           return <div className='text-2xl text-white'>{icon}</div>
-          })}
-          </div>
-          </div>
-        );
+       {aboutData[index].info.map((item, itemIndex) => {
+  return (
+    <div key={item.title} className='flex-1 flex flex-col md:flex-row max-w-max gap-x-2 items-center text-white/60'>
+      {/* title */}
+      <div className='font-light mb-2 md:mb-0'>{item.title}</div>
+      <div className='hidden md:flex'></div>
+      <div>{item.stage}</div>
+      <div className='flex gap-x-4'>
+        {/* icons */
+        item.icons?.map((icon, subItemIndex) => {
+          return <div key={`${item.title}-${subItemIndex}`} className='text-2xl text-white'>{icon}</div>;
         })}
+      </div>
+    </div>
+  );
+})}
       </div>
     </div>
    </div>
@@ -194,5 +187,5 @@ const About = () => {
   );
  };
 
-// export default About;
+
 export default About;
