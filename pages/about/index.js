@@ -28,22 +28,13 @@ const aboutData = [
     title: 'skills',
     info: [
       {
-        title: 'Web Development',
-        icons: [
-         < FaHtml5/>,
-         <FaCss3 />,
-         <FaJs />,
-         <FaReact/>,
-         <FaFigma/>,
-         <FaWordpress/>,
-         <FaNodeJs/>,
-         
-         
-        ],
-      },
+        title: 'Web Development : Html5 | CSS3 | Bootstrap | Javascript | Advanced Javascript |Typescript | Ecmascript | Reactjs | Nodejs | Nextjs | Expressjs | mongodb ',
+        
+       },
+      
       {
-        title: 'UI/UX Design',
-       icons:[<SiNextdotjs/>,<SiFramer/>,< SiAdobexd/>,<SiAdobephotoshop/>]
+        title: 'UI/UX Design : Adobephotoshop | Figma',
+       
       },
     ],
   },
