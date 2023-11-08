@@ -29,7 +29,7 @@ const Work = () => {
           initial='hidden' 
           animate='show' 
           exit='hidden' 
-          className='mb-4 max-w-[400px] mx-auto lg:mx-0'>
+          className='mb-4 max-w-[400px] mx-auto lg:mx-0 md:auto'>
            Hello i am a full stack front end developer expertise in html5 | css3 | javascript | typescript | reactjs | nextjs | tailwind css | nodejs | mongodb | firebase | java. I am also a freelancer hvaing 1+ year of experience. 
           </motion.p>
         </div>

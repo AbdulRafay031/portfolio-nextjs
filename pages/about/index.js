@@ -10,6 +10,8 @@ import{
   FaReact,
   FaFigma,
   FaWordpress,
+  FaNodeJs,
+  FaNextjs
 } from 'react-icons/fa';
 
 import{
@@ -17,6 +19,7 @@ import{
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+ 
   
 } from 'react-icons/si';
 
@@ -27,13 +30,20 @@ const aboutData = [
       {
         title: 'Web Development',
         icons: [
+         < FaHtml5/>,
+         <FaCss3 />,
+         <FaJs />,
+         <FaReact/>,
+         <FaFigma/>,
+         <FaWordpress/>,
+         <FaNodeJs/>,
          
-          
+         
         ],
       },
       {
         title: 'UI/UX Design',
-       
+       icons:[<SiNextdotjs/>,<SiFramer/>,< SiAdobexd/>,<SiAdobephotoshop/>]
       },
     ],
   },
@@ -108,7 +118,7 @@ const About = () => {
         >Captivating <span className='text-accent'>stories</span> birth magnificent designs.</h2>
         <p className='mx-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12px-2 xl:px-0'>
           I am full stack front-end web developer and i am also a freelancer.I have a 1 year of experience 
-          in web developing .
+          in web developing expertise in many programming languages.
         </p>
         {/* counter */}
         <div className='hidden md:flex md:mx-w-xl xl:max-w-none mx-auto xl:mx-0 mb-8 '>
